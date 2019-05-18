@@ -10,6 +10,8 @@ namespace LoopTime
     {
         static void Main(string[] args)
         {
+            Console.Title = "Testing Loop Speed";
+
             MyStopwatch sw = new MyStopwatch();
             sw.Start();
             for (int i = 0; i < 5000; i++) Console.WriteLine(i);
